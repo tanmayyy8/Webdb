@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of Marathi poems by [Your Name]">
+    <title>Marathi Poems - My Poems</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Poems by Sandhyaaa</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="poems.html">Poems</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Poems Section -->
+    <section id="poems">
+        <h2>My Poems</h2>
+
+        <!-- Filter Options -->
+        <div class="filters">
+            <input type="text" id="searchBar" placeholder="Search poems..." onkeyup="searchPoems()">
+            <select id="categoryFilter" onchange="filterByCategory()">
+                <option value="all">All Categories</option>
+                <option value="love">Love</option>
+                <option value="nature">Nature</option>
+                <option value="spiritual">Spiritual</option>
+                <option value="travel">Travel</option>
+                <option value="language">Language</option>
+            </select>
+        </div>
+
+        <div class="poem-grid">
+            <div class="poem-card" data-title="Title of Poem 1" data-category="language">
+                <img src="1.png.png" alt="Poem 1 Image" class="poem-image">
+                <h3>मराठी</h3>
+                <p>आपली मातृभाषा आहे मराठी<br>
+                    त्यामध्ये भरपूर आहेत शब्दांच्या दाठी.<br>
+                    <br>
+                    <br>
+                    मराठी भाषा आहे आपला मान,<br>
+                    कीर्तन, भजन व भारूड आहे महाराष्टरची शान.<br>
+                    <br>
+                    <br>
+                    मराठी भाषेचे आहे खूप जणांना ज्ञान,<br>
+                    मराठी भाषेचा वाटला पाहिजेल अभिमान.<br>
+                    <br>
+                    <br>
+                    पूर्वीपासून आपण वापरतो मराठी भाषा,<br>
+                    ती भाषा सतत वापरावी अशी आहे आशा.<br>
+                    <br>
+                    <br>
+                    आजचा दिवस आनंदाने मिळून साजरा करू सर्व,<br>
+                    मराठी भाषेचा थोडातरी बाळगा गर्व.<br>
+                    </p>
+                <span class="category">Language</span>
+            </div>
+
+            <div class="poem-card" data-title="Title of Poem 2" data-category="nature">
+                <img src="2.png.png" alt="Poem 2 Image" class="poem-image">
+                <h3>विज्ञान</h3>
+                <p>असा विषय ज्यामध्ये<br>
+                    मिळते अनेक विषयांचे ज्ञान,<br>
+                    तो विषय म्हणजे विज्ञान<br>
+                    <br>
+                    <br>
+                    अंधश्रद्धेमध्ये जी लोकं<br>
+                    असतात अज्ञान,<br>
+                    त्या अंधश्रद्धेला दूर<br>
+                    करते विज्ञान<br>
+                    <br>
+                    <br>
+                    विज्ञानाने आपल्याला शिकवले<br>
+                    फायदे आणि तोटे<br>
+                    ते विज्ञान कधीच ठरू<br>
+                    शकत नाही खोटे<br>
+                    <br>
+                    <br>
+                    विज्ञानामुळे झाली<br>
+                    अनेकांची प्रगती<br>
+                    त्या विज्ञानाची केली<br>
+                    पाहिजे क्रांती<br>
+                    <br>    
+                </p>
+                <span class="category">Nature</span>
+            </div>
+            <div class="poem-grid">
+                <div class="poem-card" data-title="Title of Poem 1" data-category="travel">
+                    <img src="3.png" alt="Poem 1 Image" class="poem-image">
+                    <h3>सहल</h3>
+                    <p>सहल आमची लहान,<br>
+                        कर्नाटकात तिचा तीन दिवस ठान.<br>
+                        पहिल्या ठिकाणी केली मंगसुळीची स्वारी,<br>
+                        मांसुलीच्या खंडोबाचा महिमा लय भारी,<br>
+                        मांसुलीच्या खंडोबाचा महिमा लय भारी,<br>
+                        पौर्णिमेला तेथे जत्रा भरे न्यारी.<br>
+                        साहिलीसाठी आम्ही आतुर,<br>
+                        गोलघुमट पाहिलेले ठिकाण आहे विजापूर<br>
+                        सर्व ठिकाणांशी जुळेल आमची गट्टी,<br>
+                        तिसरे ठिकाण आहे अलमट्टी<br>
+                        कुडलसंगम आहे आमचे चौथे ठिकाण,<br>
+                        तेथील महादेवाचे मंदिर आहे खूप महान,<br>
+                        पाचव्या ठिकाणी हंपी च्या लेण्या,<br>
+                        त्या आहेत खूप देखण्या<br>
+                        ठिकाण पहिले आम्ही हंपी,<br>
+                        तेथे गेल्यावर वाटते 'बी हॅपी'<br>
+                        सहावे ठिकाण आहे होस्पेट,<br>
+                        पुन्हा होईल का त्या ठिकाणाशी आमची भेट<br>
+                        कुडलसंगममध्ये केला बोटिंग प्रवास<br>
+                        तो क्षण होता आमच्यासाठी खास<br>
+                        सातवे ठिकाण होते ऐहोळे<br>
+                        प्राचीन मंदिरांचे तेथे सोहळे<br>
+                        बदामी आमचे आठवे ठिकाण<br>
+                        तेथे लेण्या आहेत खूप छान<br>
+                        नावामुळे ज्याचे कुतूहल<br>
+                        नववे ठिकाण आहे पट्ट्कद्ल<br>
+                        रात्रीच्या वेळी पाहिला तुंगभद्रा डॅम<br>
+                        त्या रात्रीच्या थंडीमुळे झालो आम्ही जाम<br>
+                        
+                        </p>
+                    <span class="category">travel</span>
+                </div>
+                <div class="poem-grid">
+                    <div class="poem-card" data-title="Title of Poem 1" data-category="travel">
+                        <img src="4.png" alt="Poem 1 Image" class="poem-image">
+                        <h3>नववर्ष २०२०</h3>
+                        <p>
+                            ज्याच्यामुळे मिळेल<br> 
+                            आपणाला हर्ष <br>
+                            असे हे नववर्ष <br>
+
+                            वाटते ज्यांना नेहमी <br>
+                            आपण राहावे आनंदी <br>
+                            नववर्षाच्या स्वरूपात मिळाली<br> 
+                            त्यांना एक नवी संधी <br>
+
+                            नववर्षात शिका अशी <br>
+                            नवीन गोष्ट <br>
+                            जी न होईल<br>     
+                            कधीच नष्ट <br>
+
+                            २०१९ मध्ये केल्या<br> 
+                            असाल चुका <br>
+                            २०२० मध्ये त्या सुधारून<br> 
+                            पुन्हा शिका<br>
+ 
+                            </p>
+                        <span class="category">travel</span>
+                    </div>
+            <!-- Add more poem cards here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sandhya - All Rights Reserved</p>
+    </footer>
+
+    <!-- JS Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
